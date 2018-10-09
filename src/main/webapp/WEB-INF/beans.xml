@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="authenticationServiceImpl" class="com.fidelit.implementation.AuthenticationImpl" scope="prototype">
+   </bean>
+   <bean id="employeeServiceImpl" class="com.fidelit.implementation.EmployeeServiceImpl" scope="prototype">
+   </bean>
+
+	<bean id="clientServiceImpl" class="com.fidelit.implementation.ClientServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="projectServiceImpl" class="com.fidelit.implementation.ProjectServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="userServiceImpl" class="com.fidelit.implementation.UserServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="leaveServiceImpl" class="com.fidelit.implementation.LeaveServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="holidayServiceImpl" class="com.fidelit.implementation.HolidayServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="employeeProjectServiceImpl" class="com.fidelit.implementation.EmployeeProjectServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="schoolServiceImpl" class="com.fidelit.implementation.SchoolServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="schoolAdminServiceImpl" class="com.fidelit.implementation.SchoolAdminServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="RouteServiceImpl" class="com.fidelit.implementation.RouteServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="StopServiceImpl" class="com.fidelit.implementation.StopServiceImpl" scope="prototype">
+   </bean>
+  
+   <bean id="BusServiceImpl" class="com.fidelit.implementation.BusServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="BusDriverServiceImpl" class="com.fidelit.implementation.BusDriverServiceImpl" scope="prototype">
+   </bean>
+   <bean id="gtsServiceImpl" class="com.fidelit.implementation.GtsServiceImpl" scope="prototype">
+   </bean>
+   
+   <bean id="ExtinctorServiceImpl" class="com.fidelit.implementation.ExtinctorServiceImpl" scope="prototype">
+   </bean>
+   
+    <bean id="NewsletterServiceImpl" class="com.fidelit.implementation.NewsletterServiceImpl" scope="prototype">
+   </bean>
+   <bean id="customWebAuthenticationDetailsSource" class="com.fidelit.controller.CustomWebAuthenticationDetailsSource" scope="prototype">
+   </bean>
+   <bean id="deviceServiceImpl" class="com.fidelit.implementation.DeviceServiceImpl" scope="prototype">
+   </bean>
+</beans>
